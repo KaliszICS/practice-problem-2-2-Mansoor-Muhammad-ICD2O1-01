@@ -1,7 +1,7 @@
 
 
 def q1(): 
-  num = int(input("Input an interger: "))
+  num = int(input("Input an integer: "))
   if num == 5:
     print("The number is Five")
   else: 
@@ -14,12 +14,14 @@ def q2():
     print("Positive")
   else:
     print("Negative")
+
 def q3(): 
   one = int(input("Input an integer: "))
   if one % 2 == 0:
     print("Even")
   else: 
     print("Odd")
+
 def q4(): 
   num6 = input('Type "Hello": ')
   if num6 == "Hello":
