@@ -1,15 +1,15 @@
 
 
 def q1(): 
-  men = int(input("Input a interger: "))
-  if men == 5:
+  num = int(input("Input a interger: "))
+  if num == 5:
     print("The number is 5")
   else: 
     print("The number is not 5") 
 
 
 def q2(): 
-  won = float(input("Input a number: "))
+  won = int(input("Input a number: "))
   if won > 0:
     print("Positive")
   else:
@@ -21,8 +21,8 @@ def q3():
   else: 
     print("Odd")
 def q4(): 
-  one = input("Input Hello: ")
-  if one == "Hello":
+  num9 = input("Input Hello: ")
+  if num9 == "Hello":
     print("The word is Hello")
   else: 
     print("The word is not Hello")
