@@ -9,7 +9,7 @@ def q1():
 
 
 def q2(): 
-  won = int(input("Input a number: "))
+  won = float(input("Input a number: "))
   if won > 0:
     print("Positive")
   else:
