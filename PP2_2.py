@@ -1,11 +1,11 @@
 
 
 def q1(): 
-  num = int(input("Input a interger: "))
+  num = int(input("Input an interger: "))
   if num == 5:
-    print("The number is 5")
+    print("The number is Five")
   else: 
-    print("The number is not 5") 
+    print("The number is not Five") 
 
 
 def q2(): 
@@ -15,14 +15,14 @@ def q2():
   else:
     print("Negative")
 def q3(): 
-  one = int(input("Input and interger: "))
+  one = int(input("Input an integer: "))
   if one % 2 == 0:
     print("Even")
   else: 
     print("Odd")
 def q4(): 
-  num9 = input("Input Hello: ")
-  if num9 == "Hello":
+  num6 = input('Type "Hello": ')
+  if num6 == "Hello":
     print("The word is Hello")
   else: 
     print("The word is not Hello")
